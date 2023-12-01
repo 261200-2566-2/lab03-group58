@@ -47,9 +47,7 @@ public class RPG {
                 atk=5;
                 def=5;
                 speed=100;
-
             }
-
     void Showstatus(){
         System.out.printf("Name %s \n",name);
         System.out.printf("Level %d \n",level);

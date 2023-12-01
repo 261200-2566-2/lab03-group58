@@ -24,8 +24,7 @@ public class RPG {
                 hpmax = 100 + 10 * level;
                 manamax = 50 + 2 * level;
                 hp=hpmax;
-                mana=manamax;
-            }
+                mana=manamax;            }
             void calculate() {
                 if (Swords_on == true) {
                     swordatk = 20 + level * 2;
